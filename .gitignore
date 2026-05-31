@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+eggs/
+*.egg
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# TensorFlow
+*.h5
+*.pb
+*.ckpt
+
+# Output files (large)
+outputs/models/*
+outputs/results/*
+outputs/experiments/*
+*.csv
+*.png
+*.jpg
+*.pdf
+
+# Keep output directory structure
+!outputs/models/.gitkeep
+!outputs/results/.gitkeep
+!outputs/experiments/.gitkeep
+
+# Data files (large .mat files — keep small ones if needed)
+# dataSet/*.mat
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Claude
+.claude/
+
+# Large binary files
+*.mat.part
+normalizeResult.mat
+
+# Logs
+*.log

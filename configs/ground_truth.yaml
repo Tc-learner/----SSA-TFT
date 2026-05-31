@@ -1,0 +1,106 @@
+# TE 过程模态转换地面真值标注
+# 每个数据文件对应的已知模态变化点位置（样本索引）
+
+M1M2XMEAS.mat:
+  transitions: [385, 399]
+  description: "Mode 1 → Mode 2 transition"
+
+M1M2XMV.mat:
+  transitions: [385, 399]
+  description: "Mode 1 → Mode 2 (manipulated variables)"
+
+M2M1XMEAS.mat:
+  transitions: [200, 450]
+  description: "Mode 2 → Mode 1 transition"
+
+M2M1XMV.mat:
+  transitions: [200, 450]
+  description: "Mode 2 → Mode 1 (manipulated variables)"
+
+M1M4XMEAS.mat:
+  transitions: []
+  description: "Mode 1 → Mode 4 transition (待标注)"
+
+M1M4XMV.mat:
+  transitions: []
+  description: "Mode 1 → Mode 4 (manipulated variables, 待标注)"
+
+M4M1XMEAS.mat:
+  transitions: []
+  description: "Mode 4 → Mode 1 transition (待标注)"
+
+M4M1XMV.mat:
+  transitions: []
+  description: "Mode 4 → Mode 1 (manipulated variables, 待标注)"
+
+M1M5XMEAS.mat:
+  transitions: []
+  description: "Mode 1 → Mode 5 transition (待标注)"
+
+M1M5XMV.mat:
+  transitions: []
+  description: "Mode 1 → Mode 5 (manipulated variables, 待标注)"
+
+M5M1XMEAS.mat:
+  transitions: []
+  description: "Mode 5 → Mode 1 transition (待标注)"
+
+M5M1XMV.mat:
+  transitions: []
+  description: "Mode 5 → Mode 1 (manipulated variables, 待标注)"
+
+M2M4XMEAS.mat:
+  transitions: []
+  description: "Mode 2 → Mode 4 transition (待标注)"
+
+M2M4XMV.mat:
+  transitions: []
+  description: "Mode 2 → Mode 4 (manipulated variables, 待标注)"
+
+M4M2XMEAS.mat:
+  transitions: []
+  description: "Mode 4 → Mode 2 transition (待标注)"
+
+M4M2XMV.mat:
+  transitions: []
+  description: "Mode 4 → Mode 2 (manipulated variables, 待标注)"
+
+M2M5XMEAS.mat:
+  transitions: []
+  description: "Mode 2 → Mode 5 transition (待标注)"
+
+M2M5XMV.mat:
+  transitions: []
+  description: "Mode 2 → Mode 5 (manipulated variables, 待标注)"
+
+M5M2XMEAS.mat:
+  transitions: []
+  description: "Mode 5 → Mode 2 transition (待标注)"
+
+M5M2XMV.mat:
+  transitions: []
+  description: "Mode 5 → Mode 2 (manipulated variables, 待标注)"
+
+M3M6XMEAS.mat:
+  transitions: []
+  description: "Mode 3 → Mode 6 transition (待标注)"
+
+M3M6XMV.mat:
+  transitions: []
+  description: "Mode 3 → Mode 6 (manipulated variables, 待标注)"
+
+M6M3XMEAS.mat:
+  transitions: []
+  description: "Mode 6 → Mode 3 transition (待标注)"
+
+M6M3XMV.mat:
+  transitions: []
+  description: "Mode 6 → Mode 3 (manipulated variables, 待标注)"
+
+M4M2XMEAS(ABNORMAL).mat:
+  transitions: []
+  description: "Mode 4 → Mode 2 ABNORMAL (异常工况, 待标注)"
+
+M4M2XMV(ABNORMAL).mat:
+  transitions: []
+  description: "Mode 4 → Mode 2 ABNORMAL (manipulated variables, 待标注)"
